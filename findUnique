@@ -1,0 +1,16 @@
+occAll = {}
+    for item in line:
+        occ = line.count(item)
+        occAll[item] = occ
+        
+        
+        
+for item in occAll.keys():
+    if occAll.get(item) > 1:
+        del occAll[item]
+        
+        
+all = []
+for item in occAll.keys():
+    if item in line:
+        all.append(item)
