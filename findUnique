@@ -1,7 +1,7 @@
 occAll = {}
-    for item in line:
-        occ = line.count(item)
-        occAll[item] = occ
+for item in line:
+    occ = line.count(item)
+    occAll[item] = occ
         
         
         
